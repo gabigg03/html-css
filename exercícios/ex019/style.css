@@ -1,0 +1,83 @@
+@font-face {
+    font-family:'troglo' ;
+    src: url('fonts/TROGLOP_.ttf') format('truetype');
+}
+@font-face {
+    font-family:'vag' ;
+    src: url('fonts/vagblackregular.ttf') format('truetype');
+}
+body{
+    font-family: 'vag';
+    background-color: rgb(235, 191, 208);
+    margin: 0px;
+    text-align: justify;
+
+}
+header{
+    background-color: rgb(225, 82, 143);
+    padding: 12px;
+    
+
+}
+main > section{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+    width: 620px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color:rgb(194, 137, 180);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+
+}
+footer > p{
+    margin: 0px;
+}
+article > aside{
+    color: rgb(225, 82, 143);
+}
+nav{
+    background-color: rgb(194, 137, 180);
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.267);
+    width: 600px;
+    margin: auto;
+
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 30px;
+    
+    
+}
+nav > a:hover{
+    width: 30px;
+    background-color: white;
+    color:rgb(194, 137, 180);
+    border-radius: 20px;
+    border: 1px solid rgb(194, 137, 180);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
+    padding: 3px;
+}
+h1{
+    font-family: 'troglo';
+    color: white;
+    font-size: 3em;
+    text-align: center;
+}
+span{
+    color: rgb(194, 137, 180);
+}
+
+    

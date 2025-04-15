@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens 2.0</title>
+</head>
+<body>
+    <H1>Imagens Flexíveis</H1>
+    <p>Tente aumentar e diminuir o tamanho
+    do navegador.
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="images/foto-p.png.png" type="image/png">    
+        <source media="(max-width:1050px )" srcset="images/foto-m.png.png" type="image/png">
+        <img src="images/foto-g.png.png" alt="foto g">
+    </picture>   
+     <h1>Áudio</h1>
+     <p>Amo essa música não lançada da Lana Del Rey</p>
+     <audio preload="metadata" controls>
+        <source src="midia/playingdangerous.mp3" type="audio/mpeg">
+    </audio>
+    <p>Caso queira baixar essa música <a href="midia/playingdangerous.mp3" download="playingdangerous.mp3" type="midia/mpeg">clique aqui</a></p>
+    <h1>Vídeos</h1>
+    <p>Assista um pouco dessa coreo cunt</p>
+    <video width="600" poster="images/roupa600.jpeg" controls>
+        <source src="midia/intro.mp4" type="video/mp4">
+        <source src="midia/Intro.webm" type="video/webm">
+    </video>
+    <p>Para botar vídeos do youtube no site é só ir no vídeo clicar em compartilhar <br>
+     e depois clicar em incorporar, ai é só copiar e colar no código e tcharam:</p>
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/lvTH2xq4I3k?si=d9JMBLMTYV2ohVLK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</body>
+</html>

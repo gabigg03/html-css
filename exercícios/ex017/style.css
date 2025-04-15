@@ -1,0 +1,45 @@
+@font-face {
+    font-family:'bey' ;
+    src: url('fonts/Steelfish\ Rg.otf') format('opentype');
+}
+@font-face {
+    font-family:'trop' ;
+    src: url('fonts/TROGLOP_.ttf')format('truetype');
+}
+@font-face {
+    font-family: 'lolli';
+    src: url('fonts/Lollipoptron-7GPD.ttf') format('truetype');
+}
+    #beyonce{
+        font: bold 3em 'bey';
+        color: #f4c0d7;
+        background-color: black;
+        width: 105px;
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+    }
+    #ariana{
+        font: bold 3em 'bey';
+        color: #f4c0d7;
+        background-color: black;
+        width: 190px;
+        padding: 10px;
+        margin: auto;
+    }
+    #titulo{
+        font: normal 3em 'trop';
+    }
+    p{
+        font: normal 1.2em 'lolli';
+        text-align: justify;
+        text-indent: 20px;
+        background-color: white;
+        margin: auto;
+        padding: 10px;
+        border-radius: 10px;
+        width: 600px;
+    }
+    body{
+        background-color: #fae9f0;
+    }
