@@ -3,17 +3,68 @@
 padding: 0px;
 margin: 0px;
 }
+html, body{
+    min-height: 100vh;
+    background-color: honeydew;
+}
 @font-face {
-    font-family: ;
-    src: url('../coisas/font/PassionOne-Bold.ttf') type;
+    font-family: 'passionb';
+    src: url('../coisas/font/PassionOne-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family:'sri' ;
+    src: url('../coisas/font/Sriracha-Regular.ttf') format('truetype');
 }
 header{
-    max-height: 250px;
+    max-height: 300px;
     color: white;
     background-color: black;
     text-align: center;
+    padding: 50px;
 }
 header > h1{
-    font-size: 3em;
+    font-size: 4em;
+    font-family: 'passionb';
+    /* text-transform: uppercase; transforma todas as letras em maiusculas*/
+    font-variant: small-caps;
 }
+
+header a{
+    color:white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+header a:hover{
+    text-decoration: underline;
+}
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.normal{
+    background-color: white;
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 400px;
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+
 
