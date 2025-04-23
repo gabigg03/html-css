@@ -1,0 +1,19 @@
+
+*{
+padding: 0px;
+margin: 0px;
+}
+@font-face {
+    font-family: ;
+    src: url('../coisas/font/PassionOne-Bold.ttf') type;
+}
+header{
+    max-height: 250px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+header > h1{
+    font-size: 3em;
+}
+
