@@ -3,6 +3,9 @@
 padding: 0px;
 margin: 0px;
 }
+
+
+
 html, body{
     min-height: 100vh;
     background-color: honeydew;
@@ -16,14 +19,14 @@ html, body{
     src: url('../coisas/font/Sriracha-Regular.ttf') format('truetype');
 }
 header{
-    max-height: 300px;
+    
     color: white;
     background-color: black;
     text-align: center;
     padding: 50px;
 }
 header > h1{
-    font-size: 4em;
+    font-size: 12vh;
     font-family: 'passionb';
     /* text-transform: uppercase; transforma todas as letras em maiusculas*/
     font-variant: small-caps;
@@ -46,6 +49,9 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family:'sri' ;
+    font-size: 3.5vh;
+
 }
 section.normal{
     background-color: white;
@@ -53,10 +59,13 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.445);
     color: white;
+    
 }
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.808);
-    width: 400px;
+    display: inline-block;
+    padding: 10px;
+   
 }
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
